@@ -4,7 +4,7 @@ This gem was inspired by [Using pry in production](https://bugsnag.com/blog/prod
 
 The pros of `awesome_rails_console` are:
 
-* Less gem dependances (Only pry-rails and awesome_print other than rails. The rest are optional)
+* Less gem dependances (Only pry-rails and amazing_print other than rails. The rest are optional)
 * Simpler prompt modification (Similar to the default prompt you're already familiar with)
 * No need to worry about configuration (because there are not much options anyway)
 
@@ -38,7 +38,7 @@ Prevents you from accidentally changing production data to the wrong project.
 
 ![](http://i.imgur.com/CKrJYqk.png)
 
-### Beautiful formatting with pry and awesome_print
+### Beautiful formatting with pry and amazing_print
 
 Make it easy to read. Reduce the pain while debugging.
 

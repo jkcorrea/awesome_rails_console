@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ascendbruce@gmail.com"]
 
   spec.summary       = %q{Simple and useful rails console enhancements}
-  spec.description   = %q{Enhance rails console by using awesome_print, pry and several pry plugins. And useful prompt tweaks. Makes rails console awesome by default.}
+  spec.description   = %q{Enhance rails console by using amazing_print, pry and several pry plugins. And useful prompt tweaks. Makes rails console awesome by default.}
   spec.homepage      = "https://github.com/ascendbruce/awesome_rails_console"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   # Runtime dependencies
   spec.add_dependency "railties"
   spec.add_dependency "pry-rails"
-  spec.add_dependency "awesome_print"
+  spec.add_dependency "amazing_print"
 
   # gem development dependency
   spec.add_development_dependency "bundler", "~> 1.9"
